@@ -1,3 +1,4 @@
+
 body{
     font-family: "Open Sans", sans-serif;
     margin: 0;
@@ -66,14 +67,16 @@ nav{
     
 }
 .main-heading{
-    color: #000;
+    color: #fff;
+
     text-align: center;
     margin: auto;
     padding-top: 10px;
     padding-bottom: 10px;
-    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 300px;
     font-size: 30px;
+    margin-bottom: 10px;
     
     
     
@@ -86,7 +89,7 @@ nav{
     height: 200px;
     min-width: auto;
     margin: auto;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     background: rgba(255, 255, 255, 0.25);
 box-shadow: 0 8px 32px 0 rgba(124, 127, 149, 0.5);
 backdrop-filter: blur( 4px );
@@ -97,11 +100,11 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
 .box-2{
     display:block ;
-    width: 300px;
+    width: 22%;
     height: 350px;
     min-width: auto;
     margin: auto;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     background: rgba(255, 255, 255, 0.25);
     box-shadow: 0 8px 32px 0 rgba(124, 127, 149, 0.5);
 backdrop-filter: blur( 4px );
@@ -117,7 +120,7 @@ border: 1px solid rgba(227, 219, 219, 0.18);
     height: 250px;
     min-width: auto;
     margin: auto;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     background: rgba(255, 255, 255, 0.25);
     box-shadow: 0 8px 32px 0 rgba(124, 127, 149, 0.5);
 backdrop-filter: blur( 4px );
@@ -173,12 +176,81 @@ vertical-align: -2px;
 .right{
     float: right;
 }
-.navbar-brand{
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: 600;
-    font-size: larger;
-}
+
 .footer-text{
     color: #fff;
     margin: 5px auto;
 }
+
+.card-logo img{
+    height: 30%;
+    width: 40%;
+    margin-left: 1%;
+    margin-top: 2%;
+    
+}
+.card-number{
+    height: 18%;
+    width: 90%;
+    font-size: 150%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    letter-spacing: 2px;
+    margin-left: 4%;
+    margin-top: 20%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #fff;
+    overflow: hidden;
+    padding: 2px;
+    text-align: center;
+    
+
+}
+
+.card2-logo img{
+    align-items: center;
+    height: 30%;
+    width: 70%;
+    margin-top: 2%;
+    margin-left: 16% ;
+}
+.card-name{
+    text-align: center;
+    font-size: 110%;
+    margin: 5%;
+    color: #fff;
+    overflow: hidden;
+}
+.img img{
+    height: 40%;
+    width: 50%;
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.75);;
+}
+.img{
+    margin-left: 30%;
+}
+.university{
+    text-align: center;
+    font-size: 110%;
+    margin: 2%;
+    color: #fff;
+    overflow: hidden;
+}
+.college{
+    text-align: center;
+    font-size: 110%;
+    margin-top: 5%;
+    color: #fff;
+}
+.card-profes{
+    text-align: center;
+    font-size: 110%;
+    margin: 5%;
+    color: #fff;}
+
